@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 const Component = () => {
-    const [Name, setName] = useState('Nobody')
     return (
         <>
-            <h1> Hey!! {Name}</h1>
-            <input type='text' onChange={(e) => setName(e.target.value)} placeholder='Enter Your Name..' className='px-6 py-3  bg-transparent border-2 border-zinc-200' />
+        <div className='flex items-center justify-center h-screen w-full'>
+            <h1 className='font-semibold text-3xl'> Hey!! ContactPage</h1>
+        </div>
         </>
   
         )
